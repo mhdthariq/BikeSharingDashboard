@@ -135,8 +135,8 @@ def main():
     sns.set_style("darkgrid")
 
     # Load data
-    day_df = pd.read_csv("main-data/day_data.csv")
-    hour_df = pd.read_csv("main-data/hour_data.csv")
+    day_df = pd.read_csv("dashboard/main-data/day_data.csv")
+    hour_df = pd.read_csv("dashboard/main-data/hour_data.csv")
 
     # Convert date columns to datetime
     day_df['dteday'] = pd.to_datetime(day_df['dteday'])
@@ -152,7 +152,7 @@ def main():
     day_df['weekday_name'] = pd.Categorical(day_df['weekday_name'], categories=weekday_order, ordered=True)
 
     # Sidebar with filters
-    st.sidebar.image("assets/logo.png", width=150)
+    st.sidebar.image("dashboard/assets/logo.png", width=150)
     st.sidebar.title("Filters")
 
     # Date range filter
