@@ -2,7 +2,7 @@
 
 A data visualization dashboard for analyzing bike sharing patterns. This interactive dashboard explores trends in bike rentals based on seasonality, user types, weather conditions, and time factors.
 
-![Bike Sharing Dashboard](assets/logo.png)
+![Bike Sharing Dashboard](dashboard/assets/logo.png)
 
 ## Overview
 
