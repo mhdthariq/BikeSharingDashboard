@@ -39,9 +39,9 @@ The dashboard reveals several key findings:
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/mhdthariq/Bike-Sharing-Dashboard.git
+    git clone https://github.com/mhdthariq/BikeSharingDashboard.git
 
-    cd Bike-Sharing-Dashboard
+    cd BikeSharingDashboard
     ```
 
 2. Create Create and activate a virtual environment (optional but recommended):
@@ -59,10 +59,16 @@ The dashboard reveals several key findings:
 
 ## Usage
 
+1. Go to app directory
+
+   ```bash
+   cd dashboard
+   ```
+
 1. Run the Streamlit application:
 
     ```bash
-    streamlit run app.py
+    streamlit run dashboard.py
     ```
 
 The dashboard will open in your default web browser, typically at [http://localhost:8501](http://localhost:8501)
